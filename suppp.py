@@ -21,7 +21,7 @@ Domain_Age=st.number_input("ff")
 Domain_End=st.number_input("v")
 iFrame=st.number_input("vv")
 Web_Forwards=st.number_input("fuck")
-if st.button("predict")
+if st.button("predict") :
     pred=lr.predict(np.array([[Have_At,URL_Length,URL_Depth,TinyURL,Prefix_Suffix,DNS_Record,Web_Traffic,Domain_Age,Domain_End,iFrame,Web_Forwards]]))
     if pred==1:
         st.write("the website is phishing")
