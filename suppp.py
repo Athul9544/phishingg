@@ -3,7 +3,7 @@ import streamlit as st
 from os import path
 import numpy as np
 
-st.title("Phishing Website Detection App")
+st.title("Phishing Website Detection System")
 
 filename="kn.pk"
 with open(path.join(filename),'rb') as f:
